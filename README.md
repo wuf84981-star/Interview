@@ -311,3 +311,9 @@ cd backend && .venv/Scripts/python.exe -m pytest -v
 | todo 按会话隔离 | 与「窗口互不影响」一致；跨窗口共享需引入用户概念，超出题目范围 |
 | 摘要为机械规则 | 确定性、可断言、零额外模型调用，符合「基础压缩」 |
 | 不做工具并行 | 一次一个工具，语义清晰、trace 易读 |
+
+---
+
+## 八、AI 协作记录
+
+开发过程怎么用 AI、AI 判断错在哪、最后怎么修，见 [`AI_PROMPTS.md`](./AI_PROMPTS.md)。
